@@ -28,7 +28,11 @@ body {
     border: 0px 0px 1px 0px;
     opacity: 1;
     flex-wrap: wrap;
-    margin: 0 auto;;
+    margin: 0 auto;
+    font-size: 32px;
+    
+
+
 }
 
 .nav-links {
