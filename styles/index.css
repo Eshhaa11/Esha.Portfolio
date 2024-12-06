@@ -9,9 +9,9 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #0A0A0A;    ;
+    background-color: #0A0A0A;    
     color: #C7C7C7;
-    font-family: 'Bebas Neue', sans-serif;
+    
 }
 
 
@@ -92,14 +92,13 @@ body {
 
 .home-image img {
     
-        width: auto; 
+        width: 500px; 
         height: auto; 
-        max-width: 400px;
-        max-height: 480px;
         object-fit: contain; 
         border-radius: 10px; 
+        float: right;                                                       
         position: relative;
-        right: 230px;
+        right: 0px;
     }
     
 .button {
@@ -123,14 +122,11 @@ body {
         margin-left: 15px;
 }
 
-.hr {
-    width: 1440px;
-    height: 0px;
-    top: 906px;
-    gap: 0px;
-    border: 1px 0px 0px 0px;
-    opacity: 0px;
-    border: 1px solid #484848
+.hr1 {
+    width: 100%;
+    border: 1px solid #484848;
+    position: relative;
+    top: 200px;
 }
 
 
@@ -140,7 +136,8 @@ body {
     align-items: center;
     padding: 120px 60px 50px 108px;
     height: 5px;
-    gap: 10px;
+    gap: 8px;
+    margin-top: 255px;
 }
 
 .Projects-info {
@@ -154,8 +151,9 @@ body {
      color: #ffffff;
      font-weight: 400px;
      width: 464px;
-     height: 76px;
+     height: 90px;
      line-height: 5px;
+     letter-spacing: 2px;
 }
 
 .Text {
@@ -166,10 +164,85 @@ body {
     color: #C7C7C7;
     text-align: left;
     line-height: 27px;
-    margin-top: 0px;
+    margin-top: 0.5px;
     position: relative;
-    top: -45px;
+    top: -50px;
 }
+    
+
+.container1 {
+    width: 1200px;
+    height: 600px;
+    opacity: 100;
+    display: flex;
+    margin-left: 110px;
+    margin-top: 30px;
+    gap: 10px;
+    
+  }
+  
+  .projectcard1 {
+    display: flex;
+    background-color: #1a1a1a;
+    color: #fff;
+    width: 600px;
+    height: 600px;
+    padding: 40px;
+    border-radius: 20px;
+    gap: 20px;
+  }
+  
+  
+  
+  .container1 .cardtext h2 {
+    font-size: 32px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    line-height: 44.8px; 
+    margin-bottom: 20px; 
+  }
+  
+  .container1 .cardtext p1 {
+    display: block; 
+    font-size: 18px;
+    line-height: 27px; 
+    color: #C7C7C7;
+    margin-bottom: 30px; 
+  }
+  
+  .container1 .cardtext h3 {
+    font-size: 22px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .container1 .cardtext .hr-1 {
+    width: 100%;
+    border: 1px solid #484848;
+    margin: 10px 0;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  
