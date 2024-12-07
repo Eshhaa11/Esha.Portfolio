@@ -201,7 +201,7 @@ body {
     display: flex;
     background-color: #1a1a1a;
     height: 347px;
-    top: 126px;
+    
 
   }
 
@@ -322,19 +322,20 @@ body {
     color: #fff;
     width: 550px;
     height: 360px;
-    padding: 50px;
+    padding: 70px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
     position: relative;
-    left: -735px;
+    left: -740px;
   }
 
 
    .container2 .project-card img{
     display: flex;
     background-color: #1a1a1a;
-    height: 347px;
-    top: -150px;
+    width: 400px;
+    height: 250px;
+    
 
   }
 
@@ -346,7 +347,7 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
     position: relative;
-    right: 400px;
+    right: 730px;
 
   }
   
@@ -358,7 +359,7 @@ body {
     margin-bottom: 30px; 
     font-family: Manrope;
     font-weight: 400;
-    text-align: left;
+    position: relative;
     
   }
   
