@@ -345,7 +345,8 @@ body {
     line-height: 44.8px; 
     margin-top: 20px;
     margin-bottom: 10px;
-    text-align: left;
+    position: relative;
+    right: 400px;
 
   }
   
