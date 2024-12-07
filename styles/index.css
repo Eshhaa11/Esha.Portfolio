@@ -12,6 +12,7 @@ body {
     background-color: #0A0A0A;    
     color: #C7C7C7;
     font-family: Bebas Neue;
+    overflow-x: hidden;
     
 }
 
@@ -439,6 +440,7 @@ body {
     width: 100%;
     border: 1px solid #484848;
     margin: 10px 0;
+    position: relative;
   }
 
 
