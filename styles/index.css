@@ -190,8 +190,8 @@ body {
     display: flex;
     background-color: #1a1a1a;
     color: #fff;
-    width: 550px;
-    height: 360px;
+    width: 500px;
+    height: 500px;
     padding: 50px;
     border-radius: 20px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
@@ -201,7 +201,10 @@ body {
   .projectcard1 img{
     display: flex;
     background-color: #1a1a1a;
-    height: 347px;
+    width: 80%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 10px;
     
 
   }
@@ -243,7 +246,7 @@ body {
   
 
   .container1 .cardtext .hr-1 {
-    width: 100%;
+    width: 45%;
     border: 1px solid #484848;
     margin: 10px 0;
   }
@@ -268,12 +271,12 @@ body {
     font-weight: 400;
     font-size: 16px;
     position: relative;
-    right: -500px;
+    right: -515px;
     top: -3px;
   }
 
   .container1 .cardtext .hr-2{
-    width: 100%;
+    width: 45%;
     border: 1px solid #484848;
     margin: 10px 0;
   }
@@ -294,15 +297,16 @@ body {
     font-weight: 400;
     font-size: 16px;
     position: relative;
-    right: -385px;
+    right: -400px;
     top: -2px;
   }
 
 
   .container1 .cardtext .hr-3 {
-    width: 100%;
+    width: 45%;
     border: 1px solid #484848;
     margin: 10px 0;
+    margin-bottom: 200px;
   }
 
 
@@ -379,7 +383,7 @@ body {
   
 
   .container2 .cardtext .hr-1 {
-    width: 100%;
+    width: 45%;
     border: 1px solid #484848;
     margin: 10px 0;
     position: relative;
@@ -410,7 +414,7 @@ body {
   }
 
   .container2 .cardtext .hr-2{
-    width: 100%;
+    width: 45%;
     border: 1px solid #484848;
     margin: 10px 0;
   }
@@ -437,11 +441,10 @@ body {
 
 
   .container2 .cardtext .hr-3 {
-    width: 100%;
+    width: 120%;
     border: 1px solid #484848;
     margin: 10px 0;
-    position: relative;
-    right: 723px;
+    
   }
 
 
