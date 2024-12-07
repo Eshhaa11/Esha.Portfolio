@@ -103,7 +103,7 @@ body {
         border-radius: 10px; 
         float: right;                                                       
         position: relative;
-        right: 0px;
+        right: 50px;
     }
     
 .button {
@@ -436,11 +436,12 @@ body {
   }
 
 
-  .container1 .cardtext .hr-3 {
+  .container2 .cardtext .hr-3 {
     width: 100%;
     border: 1px solid #484848;
     margin: 10px 0;
     position: relative;
+    right: 723px;
   }
 
 
