@@ -360,17 +360,18 @@ body {
     font-family: Manrope;
     font-weight: 400;
     position: relative;
-    
+    right: 730px;
     
   }
   
-  .container1 .cardtext h3 {
+  .container2 .cardtext h3 {
     font-size: 16px;
     font-family: 'Manrope', sans-serif;
     font-weight: 600;
     margin-bottom: 10px;
     line-height: 24px;
-    text-align: left;
+    position: relative;
+    right: 730px;
     
     
   }
@@ -380,6 +381,8 @@ body {
     width: 100%;
     border: 1px solid #484848;
     margin: 10px 0;
+    position: relative;
+    right: 730px;
   }
   
 
