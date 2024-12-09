@@ -175,9 +175,6 @@ body {
     left: -20px;
 }
     
-
-
-
 .container1 {
   width: 1200px;  
   height: 800px;  
@@ -498,6 +495,12 @@ body {
   padding: 120px 60px 50px 108px;
   height: 5px;
   margin-top: -150px;
+}
+
+.about-info{
+  flex: 1;
+  max-width: 544px;
+
 }
 
 
