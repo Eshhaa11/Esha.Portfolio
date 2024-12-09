@@ -499,7 +499,7 @@ body {
   padding: 120px 60px 50px 108px;
   height: 5px;
   gap: 8px;
-  margin-top: -170px;
+  margin-top: -140px;
 }
 
 .about-info {
@@ -508,6 +508,18 @@ body {
 
 }
 
+.Text3 {
+    font-size: 55px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: #ffffff;
+    font-weight: 50px;
+    height: 90px;
+    line-height: 9px;
+    letter-spacing: 3px;
+    position: relative;
+    left: -20px;
+
+}
 
 
 
