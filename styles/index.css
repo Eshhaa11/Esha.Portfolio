@@ -222,7 +222,7 @@ body {
   line-height: 44.8px;
   margin-top: 20px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: right;
 }
 
 .cardtext p1 {
@@ -233,7 +233,7 @@ body {
   margin-bottom: 30px;
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  text-align: left;
+  text-align: right;
 }
 
 .cardtext h3 {
@@ -242,7 +242,7 @@ body {
   font-weight: 600;
   margin-bottom: 10px;
   line-height: 24px;
-  text-align: left;
+  text-align: right;
 }
 
 .hr-1, .hr-2, .hr-3 {
@@ -320,7 +320,7 @@ body {
   line-height: 44.8px;
   margin-top: 20px;
   margin-bottom: 10px;
-  text-align: left;
+  text-align: right;
 }
 
 .cardtext p1 {
@@ -331,7 +331,7 @@ body {
   margin-bottom: 30px;
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  text-align: left;
+  text-align: right;
 }
 
 .cardtext h3 {
@@ -340,7 +340,7 @@ body {
   font-weight: 600;
   margin-bottom: 10px;
   line-height: 24px;
-  text-align: left;
+  text-align: right;
 }
 
 .hr-1, .hr-2, .hr-3 {
@@ -492,47 +492,3 @@ body {
 }
 
 
-.About {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 120px 60px 50px 108px;
-  height: 5px;
-  gap: 8px;
-  margin-top: -140px;
-}
-
-.about-info {
-  flex: 1;
-  max-width: 544px;
-
-}
-
-.Text3 {
-    font-size: 55px;
-    font-family: 'Bebas Neue', sans-serif;
-    color: #ffffff;
-    font-weight: 50px;
-    height: 90px;
-    line-height: 9px;
-    letter-spacing: 3px;
-    position: relative;
-    left: -20px;
-
-}
-
-.Text4 {
-  font-family: Manrope;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 10px;
-  text-align: right;
-
-
-}
-
-
-
-  
-
-  
