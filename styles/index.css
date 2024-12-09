@@ -492,6 +492,21 @@ body {
 }
 
 
+.About Me{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 60px 50px 108px;
+  height: 5px;
+  gap: 8px;
+  margin-top: 255px;
+}
+
+.Projects-info {
+  flex: 1;
+  max-width: 544px;
+}
+
 
 
 
