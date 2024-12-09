@@ -505,6 +505,9 @@ body {
   letter-spacing: 3px;
 }
 
+.Text{
+  display: flex;
+}
 
 .Text4{
   font-family: 'Manrope', sans-serif;
