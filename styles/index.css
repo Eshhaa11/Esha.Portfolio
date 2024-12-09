@@ -494,7 +494,7 @@ body {
   align-items: center;
   padding: 120px 60px 50px 108px;
   height: 5px;
-  margin-top: -180px;
+  margin-top: -160px;
 }
 
 .Text3{
@@ -511,5 +511,9 @@ body {
   color: #FFFFFF;
   font-size: 20px;
   position: relative;
-  right: -450px;
+  top: -60px;
+  text-align: right;
+  right: -150px;
+  
 }
+
