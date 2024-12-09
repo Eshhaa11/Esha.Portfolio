@@ -522,7 +522,13 @@ body {
 }
 
 .Text4 {
-  
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 10px;
+  text-align: right;
+
+
 }
 
 
