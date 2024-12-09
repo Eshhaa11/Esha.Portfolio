@@ -305,6 +305,7 @@ body {
   max-width: 100%;  
   max-height: 100%;
   margin: auto; 
+  margin-bottom: 5px;
   
 }
 
@@ -358,7 +359,7 @@ body {
   margin-bottom: 10px;
 }
 
-.info5, .info7 {
+.info5, .info7{
   color: #FFFFFF;
   font-weight: 400;
   font-size: 16px;
