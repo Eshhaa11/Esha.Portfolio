@@ -491,6 +491,20 @@ body {
   top: -214px;
 }
 
+.About {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 60px 50px 108px;
+  height: 5px;
+  margin-top: -150px;
+}
+
+
+
+
+
+
 
 
 .Text3{
