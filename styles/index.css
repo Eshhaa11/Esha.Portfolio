@@ -494,13 +494,13 @@ body {
   align-items: center;
   padding: 120px 60px 50px 108px;
   height: 5px;
-  margin-top: -150px;
+  margin-top: -180px;
 }
 
 .Text3{
   font-family: 'Bebas Neue', sans-serif;
   font-size: 50px;
   color: #FFFFFF;
-  font-weight: 10px;
+  font-weight: 5px;
   letter-spacing: 2px;
 }
