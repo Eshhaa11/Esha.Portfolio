@@ -387,7 +387,7 @@ body {
   gap: 35px;
 }
 
-.project-card {
+.container3 .project-card {
   display: flex;
   background-color: #1a1a1a;
   color: #fff;
