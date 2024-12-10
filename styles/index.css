@@ -495,7 +495,7 @@ body {
   display: flex;
   margin-left: 65px;
   margin-right: auto;
-  margin-top: 50px;
+  
   box-sizing: border-box;
 }
 
@@ -507,7 +507,8 @@ body {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 76px;
-  left: -30px;
+  left: -50px;
+  margin-top: -20px;
   
 }
 
