@@ -493,7 +493,6 @@ body {
   height: 600px;
   opacity: 100;
   display: flex;
-  margin-right: auto;
   box-sizing: border-box;
 }
 
@@ -513,7 +512,7 @@ body {
 .text4 {
   font-family: "Manrope", sans-serif;
   color: #f1f1f1;
-  margin-top: -140px;
+  margin-top: -115px;
   font-size: 20px;
   font-weight: 500;
 }
