@@ -489,41 +489,52 @@ body {
 }
 
 .about-info {
+  width: 1200px;
+  height: 600px;
+  opacity: 100;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 120px 60px 50px 108px;
-  height: 5px;
-  margin-top: -140px;
-  gap: 20px;
-}
-
-.text3{
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 50px;
-  color: #FFFFFF;
-  font-weight: 5px;
-  letter-spacing: 3px;
+  margin-left: 65px;
+  margin-right: auto;
+  margin-top: 50px;
+  box-sizing: border-box;
 }
 
 
-.text4{
-  font-family: 'Manrope', sans-serif;
-  color: #FFFFFF;
+.text3 {
+  color: #fff;
+  width: 464px;
+  height: 76px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 76px;
+  left: -30px;
+  
+}
+
+.text4 {
+  font-family: "Manrope", sans-serif;
+  color: #f1f1f1;
+  margin-top: 60px;
   font-size: 20px;
-  position: relative;
-  top: -60px;
-  text-align: right;
-  right: -100px;
-  
+  font-weight: 500;
 }
 
-.text-5{
-  font-family: 'Manrope', sans-serif;
-  color: #C7C7C7;
-  
+.text5 {
+  font-family: "Manrope", sans-serif;
+  color: #c7c7c7;
+  margin-top: -400px;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 595px;
 }
-  
-  
+
+.moreabout {
+  font-family: "Manrope", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #d3e97a;
+  gap: 2px;
+  margin-left: 595px;
+}
 
 
