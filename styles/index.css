@@ -242,7 +242,7 @@ body {
   margin: 10px 0;
 }
 
-.live {
+.container1 .live {
   font-family: "Manrope", sans-serif;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
@@ -251,11 +251,11 @@ body {
   font-weight: 700;
   padding-left: -10px;
   position: relative;
-  top: 40px;
+  top: 20px;
   
 }
 
-.github {
+.container1 .github {
   font-family: "Manrope", sans-serif;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
@@ -264,14 +264,14 @@ body {
   font-weight: 700;
   padding-left: 25px;
   position: relative;
-  top: 40px;
+  top: 20px;
 
 }
 
-.info a .logo {
+.container1 .info a .logo {
   padding-left: 25px;
   position: relative;
-  top: -10px;
+  top: 20px;
 
 }
 
