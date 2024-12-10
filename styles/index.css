@@ -123,9 +123,7 @@ body {
     background-color:#D3E97A;
     gap: 14px;
 }
-.contact-me .bullet {
-   margin-left: 15px;
-}
+
 
 .hr1 {
     width: 100%;
@@ -194,6 +192,7 @@ body {
   border-radius: 12px;
   position: relative;
   left: -20px;
+  
 }
 
 .project-card img {
@@ -317,7 +316,7 @@ body {
   background-color: #1a1a1a;
   color: #fff;
   width: 500px;
-  height: 510px;
+  height: 530px;
   padding: 40px;
   border-radius: 12px;
   position: relative;
