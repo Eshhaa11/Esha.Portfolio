@@ -110,7 +110,7 @@ body {
     text-align: center;
     margin-top: 20px;
     position: absolute;
-    bottom: 20px;
+    bottom: -10px;
     left: 80px;
 }
 
@@ -121,7 +121,7 @@ body {
     border-radius: 100px;
     opacity: 1px;
     background-color:#D3E97A;
-    gap: 12px;
+    gap: 14px;
 }
 .contact-me .bullet {
    margin-left: 15px;
