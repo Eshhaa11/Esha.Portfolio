@@ -242,6 +242,39 @@ body {
   margin: 10px 0;
 }
 
+.live {
+  font-family: "Manrope", sans-serif;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #d3e97a;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: -10px;
+  position: relative;
+  top: 40px;
+  
+}
+
+.github {
+  font-family: "Manrope", sans-serif;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #d3e97a;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: 25px;
+  position: relative;
+  top: 40px;
+
+}
+
+.info a .logo {
+  padding-left: 25px;
+  position: relative;
+  top: -10px;
+
+}
+
 .info {
   margin-top: 10px;
 }
