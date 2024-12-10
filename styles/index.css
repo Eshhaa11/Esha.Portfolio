@@ -184,12 +184,12 @@ body {
   gap: 35px;
 }
 
-.project-card {
+.container1 .project-card {
   display: flex;
   background-color: #1a1a1a;
   color: #fff;
   width: 500px;
-  height: 530px;
+  height: 540px;
   padding: 40px;
   border-radius: 12px;
   position: relative;
@@ -285,7 +285,7 @@ body {
   gap: 35px;
 }
 
-.project-card {
+.container2 .project-card {
   display: flex;
   background-color: #1a1a1a;
   color: #fff;
