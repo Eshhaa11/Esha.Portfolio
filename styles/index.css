@@ -513,9 +513,9 @@ body {
   font-family: "Manrope", sans-serif;
   color: #f1f1f1;
   margin-top: -115px;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;
-  margin-right: -50px;
+  margin-right: -189px;
 }
 
 .text5 {
@@ -532,6 +532,7 @@ body {
 
 .moreabout {
   font-family: "Manrope", sans-serif;
+  text-underline-offset: 8px;
   font-size: 16px;
   font-weight: 700;
   color: #d3e97a;
