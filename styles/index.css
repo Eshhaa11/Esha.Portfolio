@@ -665,7 +665,7 @@ body {
 
 .connect .icons{
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
   width: 200px;
   height: 32px;
   margin-top: -358px;
