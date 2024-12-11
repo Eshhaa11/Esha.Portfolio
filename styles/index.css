@@ -675,3 +675,9 @@ body {
   left: 80px;
 }
 
+.icon img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
+
