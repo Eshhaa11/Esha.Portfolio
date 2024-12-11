@@ -293,7 +293,7 @@ body {
 .container1 .info a .logo {
   padding-left: 25px;
   position: relative;
-  top: 20px;
+  top: 9px;
 
 }
 
@@ -444,7 +444,7 @@ body {
   height: 800px;  
   display: flex;
   margin-left: 110px;
-  margin-top: 20px;
+  margin-top: -20px;
   gap: 35px;
 }
 
