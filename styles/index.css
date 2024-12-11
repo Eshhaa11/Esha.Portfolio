@@ -106,25 +106,48 @@ body {
         right: 50px;
     }
     
-.button {
-    text-align: center;
-    margin-top: 20px;
-    position: absolute;
-    bottom: -8px;
-    left: 80px;
-}
+    .button {
+      display: flex; 
+      align-items: center; 
+      gap: 20px; 
+      text-align: center;
+      margin-top: 18px;
+      position: absolute;
+      bottom: -8px;
+      left: 80px;
+  }
+  
+  .contact-me {
+      width: 145px;
+      height: 45px;
+      padding: 10px, 10px;
+      border-radius: 100px;
+      background-color: #D3E97A;
+      font-family: 'manrope', sans-serif;
+      font-size: 12px; 
+      font-weight: 700;
+      border: none;
+        
+  }
 
-.contact-me {
-    width: 150px;
-    height: 50px;
-    padding:  6px;
-    border-radius: 100px;
-    opacity: 1px;
-    background-color:#D3E97A;
-    gap: 14px;
-}
-
-
+  .bullet {
+    font-size: 10px; 
+    color: #0a0a0a; 
+    position: relative;
+    left: 15px;
+  }
+  
+  .iconlinkedin, .icongit {
+    position: relative;
+    
+  }
+  
+  .iconlinkedin img, .icongit img {
+      width: 40px; 
+      height: 40px;
+      
+  }
+  
 .hr1 {
     width: 100%;
     border: 1px solid #484848;
@@ -187,7 +210,7 @@ body {
   background-color: #1a1a1a;
   color: #fff;
   width: 500px;
-  height: 540px;
+  height: 590px;
   padding: 40px;
   border-radius: 12px;
   position: relative;
@@ -316,7 +339,7 @@ body {
   background-color: #1a1a1a;
   color: #fff;
   width: 500px;
-  height: 530px;
+  height: 590px;
   padding: 40px;
   border-radius: 12px;
   position: relative;
@@ -403,13 +426,25 @@ body {
   margin: 10px 0;
 }
 
+.container2 .view {
+  font-family: "Manrope", sans-serif;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #d3e97a;
+  font-size: 18px;
+  font-weight: 700;
+  padding-left: -10px;
+  position: relative;
+  top: 20px;
+}
+
 
 .container3 {
   width: 1200px;  
   height: 800px;  
   display: flex;
   margin-left: 110px;
-  margin-top: 30px;
+  margin-top: 20px;
   gap: 35px;
 }
 
@@ -494,6 +529,7 @@ body {
   font-family: "Manrope", sans-serif;
   text-underline-offset: 8px;
   text-decoration-thickness: 2px;
+
   color: #d3e97a;
   font-size: 18px;
   font-weight: 700;
@@ -502,11 +538,12 @@ body {
   top: 40px;
 
 }
-
 .info a .logo {
   padding-left: 25px;
   position: relative;
-  top: -10px;
+  top: 8px;
+  left: -20px;
+  
 
 }
 
@@ -733,15 +770,29 @@ textarea {
   font-size: 20px;
   font-weight: 400;
   position: relative;
-  left: 300px;
-  margin-top: -200px;
+  right: -75px;
+  margin-top: -325px;
  
 }
 
-.button {
-  background-color: #D3E97A;
+.btn {
+  background-color: #d3e97a;
+  color: #0a0a0a;
+  font-family: 'manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  height: 48px;
+  width: 140px;
+  border-radius: 100px;
+  border: none;
+  padding: 20, 40px;
 }
 
+
+.btn:hover {
+  background-color: #ffffff;
+
+}
 
 
 
