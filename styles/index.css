@@ -666,10 +666,12 @@ body {
 .connect .icons{
   display: flex;
   justify-content:space-between;
+  align-items: center;
+  gap: 20px;
   width: 200px;
   height: 32px;
   margin-top: -358px;
   position: relative;
-  left: 60px;
+  left: 80px;
 }
 
