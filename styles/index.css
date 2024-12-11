@@ -681,10 +681,54 @@ body {
   
 }
 
-
-.form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.form-info {
+    width: 600px;
+    height: 611px;
+    font-family: "Manrope", sans-serif;
+    color: #c7c7c7;
+    position: relative;
+    right: -700px;
+    top: -225px;
+ 
 }
+
+input[type="text"], select, textarea {
+  width: 600px;
+  height: 54px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 1px;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  background-color: #1a1a1a;
+  color:#fff;
+  
+}
+
+input::placeholder {
+  color:#ffffff;
+  font-family: 'manrope' sans-serif;
+  font-size: 16px;
+}
+
+
+textarea {
+  width: 600px;
+  height: 150px; 
+  padding: 12px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  background-color: #1a1a1a;
+  
+  resize: none;
+}
+
+
+
+
 
