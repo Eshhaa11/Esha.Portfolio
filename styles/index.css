@@ -669,6 +669,7 @@ body {
   width: 200px;
   height: 32px;
   margin-top: -358px;
-  padding-left: 55px;
+  position: relative;
+  left: 60px;
 }
 
