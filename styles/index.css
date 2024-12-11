@@ -727,7 +727,9 @@ textarea {
   resize: none;
 }
 
-.footer
+.footer{
+  font-family: 'manrope', sans-serif;
+}
 
 
 
