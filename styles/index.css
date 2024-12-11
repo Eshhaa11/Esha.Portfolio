@@ -682,5 +682,7 @@ body {
 }
 
 
-.form .form-info
+.form {
+  display: flex;
+}
 
