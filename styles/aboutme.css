@@ -212,7 +212,7 @@ body {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 40px;
+  gap: 20px;
   flex-wrap: wrap;
   
 
