@@ -113,17 +113,18 @@ body {
     margin-top: 7px;
     position: relative;
     bottom: -8px;
-    right: -190px;
+    right: -550px;
+    
 }
 
 .resume {
-    width: 145px;
-    height: 45px;
-    padding: 10px, 10px;
+    width: 245px;
+    height: 54px;
+    padding: 20px, 6px, 20px, 24px;
     border-radius: 100px;
     background-color: #D3E97A;
     font-family: 'manrope', sans-serif;
-    font-size: 12px; 
+    font-size: 16px; 
     font-weight: 700;
     border: none;
       
@@ -133,22 +134,33 @@ body {
   font-size: 10px; 
   color: #0a0a0a; 
   position: relative;
-  left: 15px;
+  right: -18px;
+  top: -3px;
 }
-  /* .moreabout {
-    font-family: "Manrope", sans-serif;
-    text-underline-offset: 8px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #d3e97a;
-    margin-left: 548px;
-  }
+
+
+
+.iconlinkedin, .icongit {
+  position: relative;
   
-.hr3 {
+}
+
+.iconlinkedin img, .icongit img {
+    width: 45px; 
+    height: 45px;
+    
+}
+  
+  
+
+.img {
+  width: 700px;
+}
+/* .hr3 {
     width: 100%;
     border: 1px solid #484848;
     margin-top: 350px;
-  } */
+  } */ */
 
 /* .connect-info {
     width: 1200px;
