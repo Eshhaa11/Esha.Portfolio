@@ -211,9 +211,14 @@ body {
 
 .button-container {
   display: flex;
-  justify-content: center;
   gap: 20px;
-  padding: 8px;
+  padding: 30px;
+  border-radius: 100px;
+}
+
+
+.button {
+  
 }
 
 
