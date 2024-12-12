@@ -211,11 +211,10 @@ body {
 
 .button-container {
   display: flex;
+  justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
-  width: 124px;
-  height: 56px;
-  border-radius: 100px;
+  
 
 }
 
