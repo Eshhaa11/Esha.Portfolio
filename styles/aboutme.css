@@ -211,19 +211,22 @@ body {
 
 .button-container {
   display: flex;
-  gap: 20px;
+  gap: 40px;
+  flex-wrap: wrap;
   width: 124px;
   height: 56px;
+  border-radius: 100px;
 
 }
 
 
 .button {
+  width: 124px;
+  height: 56px;
   background-color: #0a0a0a;
   color: #ffffff;
-  border: 1px;
   border-radius: 100px;
-  padding: 60px;
+  padding: 20px,40px;
 
 
 }
