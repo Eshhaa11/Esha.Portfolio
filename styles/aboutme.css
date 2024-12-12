@@ -214,12 +214,16 @@ body {
   gap: 20px;
   width: 124px;
   height: 56px;
+
 }
 
 
 .button {
   background-color: #0a0a0a;
   color: #ffffff;
+  border: 1px;
+  border-radius: 100px;
+  padding: 60px;
 
 
 }
