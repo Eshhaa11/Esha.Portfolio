@@ -209,12 +209,18 @@ body {
   margin-bottom: 40px;
 }
 
-
-.skills {
+.button-container {
   display: flex;
-  
 }
 
+
+
+.hr1 {
+  width: 100%;
+  border: 1px solid #484848;
+  position: relative;
+  top: 200px;
+}
 /* .hr3 {
 
 
