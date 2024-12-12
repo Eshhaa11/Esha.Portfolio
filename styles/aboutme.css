@@ -212,8 +212,6 @@ body {
 .button-container {
   display: flex;
   gap: 20px;
-  padding: 30px;
-  border-radius: 100px;
   width: 124px;
   height: 56px;
 }
