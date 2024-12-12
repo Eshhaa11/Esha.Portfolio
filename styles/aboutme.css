@@ -214,11 +214,13 @@ body {
   gap: 20px;
   padding: 30px;
   border-radius: 100px;
+  width: 124px;
 }
 
 
 .button {
   background-color: #0a0a0a;
+  color: ;
 
 }
 
