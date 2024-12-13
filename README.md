@@ -26,9 +26,11 @@ About This Portfolio
 ---
 
 Welcome to "Esha's Portfolio," a curated space where creativity meets code. This portfolio reflects my journey as a front-end developer and my love for designing meaningful user experiences. It’s not just a portfolio—it’s a story.
+
 ---
 
 I’ve built this space to share my projects, my inspirations, and a glimpse into my world as a developer. Every detail has been crafted to ensure a seamless and delightful browsing experience.
+
 ---
 
 ✨ Highlights
