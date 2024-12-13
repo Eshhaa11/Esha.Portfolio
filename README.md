@@ -1,6 +1,9 @@
 Welcome to Esha's Portfolio 🌸
 ---
-Step into a world where design meets functionality! This portfolio is my personal playground, showcasing my skills, projects, and passion for front-end development. Dive in to explore my work and connect with me.
+Step into a world where design meets functionality! This portfolio is my personal playground, showcasing my skills, projects, and passion for front-end development. 
+
+Dive in to explore my work and connect with me.
+
 ---
 
 🌟 Quick Glance
@@ -12,7 +15,7 @@ Check out the live version here: https://eshhaa11.github.io/Esha.Portfolio/
 
 About This Portfolio
 
-Highlights
+Projects
 
 Technology Stack
 
@@ -33,7 +36,13 @@ I’ve built this space to share my projects, my inspirations, and a glimpse int
 
 ---
 
-✨ Highlights
+🛠️ Projects-
+---
+
+Grid-based gallery featuring completed projects.
+
+Hover effects that reveal project details and links.
+
 ---
 
 🏡 Landing Page
@@ -71,6 +80,7 @@ A blend of grid and carousel layouts for a dynamic presentation.
 A sleek, responsive contact form with real-time validation.
 
 Links to my social media profiles and GitHub.
+
 ---
 
 Technology Stack
