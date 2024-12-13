@@ -103,15 +103,17 @@ I’d love to connect with you! Whether you have a project in mind, a question, 
 
 Email: patellesha11@gmail.com
 
-LinkedIn: Esha’s Profile
+LinkedIn: https://www.linkedin.com/in/esha-patel-9463ab317/
 
-GitHub: My Projects
+GitHub: https://github.com/Eshhaa11
 
-Instagram: Follow Me
+Instagram: https://www.instagram.com/eshha.11/
 
 ---
 
-Thank you for visiting my portfolio! Let’s create something extraordinary together. 🚀
+Thank you for visiting my portfolio!
+
+Let’s create something extraordinary together. 🚀
 
 
 
