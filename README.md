@@ -125,6 +125,16 @@ Instagram: https://www.instagram.com/eshha.11/
 
 ---
 
+🙏 Thanksgiving
+--
+
+Special thanks to **[MR. EDWARD ODHIAMB]** for your guidance and support  which helped me reach a stage where i could comfortably make such a project. 
+
+Your encouragement has been invaluable!
+
+--
+
+
 Thank you for visiting my portfolio!
 
 Let’s create something extraordinary together. 🚀
