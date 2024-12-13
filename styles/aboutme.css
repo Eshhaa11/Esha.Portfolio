@@ -60,6 +60,11 @@ body {
     text-decoration: none;
 }
 
+.navbar ul li a:focus {
+  outline-offset: 4px;
+}
+
+
 
 .about-info {
     width: 1200px;
