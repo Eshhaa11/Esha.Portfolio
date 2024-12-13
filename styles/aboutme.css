@@ -206,11 +206,12 @@ body {
 }
 
 .button-container {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 10px;
-    max-width: 400px;
+    display:grid;
     margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    max-width: 400px;
+    
 }
 
 .button-container .button {
@@ -223,7 +224,12 @@ body {
   position: relative;
   top: 20px;
   right: -120px;
+  cursor: pointer;
 
+}
+
+.button-container :hover {
+  transform: scale(1.1);
 }
 
 .hr1 {
@@ -495,4 +501,103 @@ textarea {
 }
 
 
+@media (max-width: 768px) {
+  .navbar {
+      flex-direction: column;
+      padding: 20px;
+      text-align: center;
+  }
 
+  .navbar ul {
+      flex-direction: column;
+      gap: 15px;
+  }
+
+  .about-info, .me-image, .text {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+  }
+
+  .text3, .p-text {
+      font-size: 48px;
+      margin-left: 0;
+  }
+
+  .text5, .para, .p4, .p7 {
+      font-size: 14px;
+      margin-left: 0;
+      margin-top: 10px;
+  }
+
+  .button-container {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      max-width: 300px;
+      margin: auto;
+  }
+
+  .connect-info {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+  }
+
+  .icons {
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .form-info {
+      width: 90%;
+      margin: 20px auto;
+      right: 0;
+      top: 0;
+  }
+
+  input[type="text"], select, textarea {
+      width: 100%;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .navbar {
+      height: auto;
+  }
+
+  .navbar ul {
+      gap: 10px;
+  }
+
+  .text3, .p-text {
+      font-size: 32px;
+  }
+
+  .button-container {
+      grid-template-columns: 1fr;
+      gap: 5px;
+      max-width: 100%;
+  }
+
+  .me-image img {
+      width: 100%;
+      height: auto;
+  }
+
+  .text5, .para, .p4, .p7 {
+      font-size: 12px;
+  }
+
+  .connect-info {
+      margin-top: 20px;
+  }
+
+  .form-info {
+      width: 100%;
+  }
+
+  input[type="text"], textarea {
+      font-size: 14px;
+  }
+}
