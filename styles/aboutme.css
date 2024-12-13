@@ -6,58 +6,59 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
 body {
-    background-color: #0A0A0A;    
-    color: #C7C7C7;
-    font-family: Bebas Neue;
-    overflow-x: hidden;
-    
+  background-color: #0A0A0A;
+  color: #C7C7C7;
+  font-family: Bebas Neue;
+  overflow-x: hidden;
+
 }
 
 
 .navbar {
-    position: relative;
-    width: 100%;
-    height: 96px;
-    padding: 24px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    
+  position: relative;
+  width: 100%;
+  height: 96px;
+  padding: 24px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+
 }
 
 .navbar .logo {
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 48px;
-    text-align: left;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  text-align: left;
 }
 
 .navbar ul {
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  margin: 0;
+  align-items: center;
 }
 
 .navbar ul li {
-    margin-left:35px;
-    list-style: none;
-    display: flex;
-    align-items: center;
+  margin-left: 35px;
+  list-style: none;
+  display: flex;
+  align-items: center;
 
 }
 
 .navbar ul li a {
-    font-family: Inter , sans-serif;
-    color: #C7C7C7;
-    text-decoration: none;
+  font-family: Inter, sans-serif;
+  color: #C7C7C7;
+  text-decoration: none;
 }
 
 .navbar ul li a:focus {
@@ -68,77 +69,77 @@ body {
 
 
 .about-info {
-    width: 1200px;
-    height: 600px;
-    opacity: 100;
-    display: flex;
-    box-sizing: border-box;
-  }
-  
-  
-  .text3 {
-    color: #fff;
-    width: 464px;
-    height: 76px;
-    font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-size: 76px;
-    margin-left: 83px;
-    margin-top: 60px;
-    
-  }
-  
-  .text4 {
-    font-family: "Manrope", sans-serif;
-    color: #f1f1f1;
-    margin-top: 60px;
-    font-size: 24px;
-    font-weight: 500;
-    margin-right: -189px;
-  }
-  
-  .text5 {
-    font-family: "Manrope", sans-serif;
-    color: #c7c7c7;
-    font-size: 18px;
-    font-weight: 500;
-    margin-left: 547px;
-    line-height: 27px;
-    margin-top: -465px;
-    margin-bottom: 40px;
-  }
-  
+  width: 1200px;
+  height: 600px;
+  opacity: 100;
+  display: flex;
+  box-sizing: border-box;
+}
+
+
+.text3 {
+  color: #fff;
+  width: 464px;
+  height: 76px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 76px;
+  margin-left: 83px;
+  margin-top: 60px;
+
+}
+
+.text4 {
+  font-family: "Manrope", sans-serif;
+  color: #f1f1f1;
+  margin-top: 60px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: -189px;
+}
+
+.text5 {
+  font-family: "Manrope", sans-serif;
+  color: #c7c7c7;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 547px;
+  line-height: 27px;
+  margin-top: -465px;
+  margin-bottom: 40px;
+}
 
 
 
-  .button {
-    display: flex; 
-    align-items: center; 
-    gap: 20px; 
-    text-align: center;
-    margin-top: 7px;
-    position: relative;
-    bottom: -8px;
-    right: -550px;
-    
- }
 
-  .resume {
-    width: 245px;
-    height: 54px;
-    padding: 20px, 6px, 20px, 24px;
-    border-radius: 100px;
-    background-color: #D3E97A;
-    font-family: 'manrope', sans-serif;
-    font-size: 16px; 
-    font-weight: 700;
-    border: none;
-      
+.button {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  margin-top: 7px;
+  position: relative;
+  bottom: -8px;
+  right: -550px;
+
+}
+
+.resume {
+  width: 245px;
+  height: 54px;
+  padding: 20px, 6px, 20px, 24px;
+  border-radius: 100px;
+  background-color: #D3E97A;
+  font-family: 'manrope', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+
 }
 
 .bullet {
-  font-size: 10px; 
-  color: #0a0a0a; 
+  font-size: 10px;
+  color: #0a0a0a;
   position: relative;
   right: -18px;
   top: -3px;
@@ -146,17 +147,19 @@ body {
 
 
 
-.iconlinkedin, .icongit {
+.iconlinkedin,
+.icongit {
   position: relative;
-  
+
 }
 
-.iconlinkedin img, .icongit img {
-    width: 45px; 
-    height: 45px;
-    
+.iconlinkedin img,
+.icongit img {
+  width: 45px;
+  height: 45px;
+
 }
-  
+
 
 .me-image {
   display: flex;
@@ -171,20 +174,20 @@ body {
 
 
 .me-image img {
-    width:950px;
-    height: 600px;
-    border-radius: 16px;
-    position: relative;
-    left: 100px;
-    
+  width: 950px;
+  height: 600px;
+  border-radius: 16px;
+  position: relative;
+  left: 100px;
+
 }
 
 .text {
   width: 1200px;
   height: 600px;
   opacity: 100;
-  
-  
+
+
 }
 
 
@@ -197,7 +200,7 @@ body {
   font-size: 76px;
   margin-left: 83px;
   margin-top: 250px;
-  
+
 }
 
 .para {
@@ -212,12 +215,12 @@ body {
 }
 
 .button-container {
-    display:grid;
-    margin: auto;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 15px;
-    max-width: 400px;
-    
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+  max-width: 400px;
+
 }
 
 .button-container .button {
@@ -250,8 +253,8 @@ body {
   width: 1200px;
   height: 600px;
   opacity: 100;
-  
-  
+
+
 }
 
 
@@ -264,7 +267,7 @@ body {
   font-size: 76px;
   margin-left: 83px;
   margin-top: 255px;
-  
+
 }
 
 .p2 {
@@ -292,14 +295,14 @@ body {
 }
 
 
-.p4{
-font-family: "Manrope", sans-serif;
-color: #c7c7c7;
-font-size: 16px;
-font-weight: 500;
-margin-left: 700px;
-line-height: 27px;
-margin-top: 25px;
+.p4 {
+  font-family: "Manrope", sans-serif;
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 700px;
+  line-height: 27px;
+  margin-top: 25px;
 
 }
 
@@ -318,7 +321,7 @@ margin-top: 25px;
 
 
 
-.p6{
+.p6 {
   font-size: 16px;
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
@@ -330,16 +333,16 @@ margin-top: 25px;
 
 }
 
-.p7{
-font-family: "Manrope", sans-serif;
-color: #c7c7c7;
-font-size: 16px;
-font-weight: 500;
-margin-left: 700px;
-line-height: 27px;
-margin-top: 30px;
+.p7 {
+  font-family: "Manrope", sans-serif;
+  color: #c7c7c7;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 700px;
+  line-height: 27px;
+  margin-top: 30px;
 
-} 
+}
 
 .hr2 {
   width: 100%;
@@ -369,7 +372,7 @@ margin-top: 30px;
   margin-left: 83px;
   margin-top: 40px;
   margin-bottom: 30px;
-  
+
 
 }
 
@@ -394,25 +397,25 @@ margin-top: 30px;
 
 
 .ptext1 a {
-  color:#FFFFFF;
+  color: #FFFFFF;
   text-decoration: underline;
   text-decoration-color: #d3e97a;
   text-decoration-thickness: 1px;
   text-underline-offset: 8px;
-  
+
 }
 
 .ptext2 a {
-  color:#FFFFFF;
+  color: #FFFFFF;
   text-decoration: underline;
   text-decoration-color: #d3e97a;
   text-decoration-thickness: 1px;
   text-underline-offset: 5px;
 }
 
-.connect .icons{
+.connect .icons {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   gap: 24px;
   width: 200px;
@@ -425,21 +428,23 @@ margin-top: 30px;
 .icons img {
   width: 35px;
   height: 35px;
-  
+
 }
 
 .form-info {
-    width: 600px;
-    height: 611px;
-    font-family: "Manrope", sans-serif;
-    color: #c7c7c7;
-    position: relative;
-    right: -700px;
-    top: -225px;
- 
+  width: 600px;
+  height: 611px;
+  font-family: "Manrope", sans-serif;
+  color: #c7c7c7;
+  position: relative;
+  right: -700px;
+  top: -225px;
+
 }
 
-input[type="text"], select, textarea {
+input[type="text"],
+select,
+textarea {
   width: 600px;
   height: 54px;
   padding: 12px;
@@ -449,12 +454,12 @@ input[type="text"], select, textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   background-color: #1a1a1a;
-  color:#fff;
-  
+  color: #fff;
+
 }
 
 input::placeholder {
-  color:#ffffff;
+  color: #ffffff;
   font-family: 'manrope' sans-serif;
   font-size: 16px;
 }
@@ -462,7 +467,7 @@ input::placeholder {
 
 textarea {
   width: 600px;
-  height: 150px; 
+  height: 150px;
   padding: 12px;
   border-radius: 4px;
   box-sizing: border-box;
@@ -474,7 +479,7 @@ textarea {
   resize: none;
 }
 
-.footer{
+.footer {
   font-family: 'manrope', sans-serif;
   color: #c7c7c7;
   font-size: 20px;
@@ -483,7 +488,7 @@ textarea {
   right: -75px;
   margin-top: -250px;
 
- 
+
 }
 
 .btn {
@@ -497,7 +502,7 @@ textarea {
   border-radius: 100px;
   border: none;
   padding: 20, 40px;
-  
+
 }
 
 
@@ -509,101 +514,114 @@ textarea {
 
 @media (max-width: 768px) {
   .navbar {
-      flex-direction: column;
-      padding: 20px;
-      text-align: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
   }
 
   .navbar ul {
-      flex-direction: column;
-      gap: 15px;
+    flex-direction: column;
+    gap: 15px;
   }
 
-  .about-info, .me-image, .text {
-      width: 100%;
-      padding: 20px;
-      text-align: center;
+  .about-info,
+  .me-image,
+  .text {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
   }
 
-  .text3, .p-text {
-      font-size: 48px;
-      margin-left: 0;
+  .text3,
+  .p-text {
+    font-size: 48px;
+    margin-left: 0;
   }
 
-  .text5, .para, .p4, .p7 {
-      font-size: 14px;
-      margin-left: 0;
-      margin-top: 10px;
+  .text5,
+  .para,
+  .p4,
+  .p7 {
+    font-size: 14px;
+    margin-left: 0;
+    margin-top: 10px;
   }
 
   .button-container {
-      grid-template-columns: repeat(2, 1fr);
-      gap: 10px;
-      max-width: 300px;
-      margin: auto;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 300px;
+    margin: auto;
   }
 
   .connect-info {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .icons {
-      flex-wrap: wrap;
-      justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
   .form-info {
-      width: 90%;
-      margin: 20px auto;
-      right: 0;
-      top: 0;
+    width: 90%;
+    margin: 20px auto;
+    right: 0;
+    top: 0;
   }
 
-  input[type="text"], select, textarea {
-      width: 100%;
+  input[type="text"],
+  select,
+  textarea {
+    width: 100%;
   }
 }
 
 
 @media (max-width: 480px) {
   .navbar {
-      height: auto;
+    height: auto;
   }
 
   .navbar ul {
-      gap: 10px;
+    gap: 10px;
   }
 
-  .text3, .p-text {
-      font-size: 32px;
+  .text3,
+  .p-text {
+    font-size: 32px;
   }
 
   .button-container {
-      grid-template-columns: 1fr;
-      gap: 5px;
-      max-width: 100%;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    max-width: 100%;
   }
 
   .me-image img {
-      width: 100%;
-      height: auto;
+    width: 100%;
+    height: auto;
   }
 
-  .text5, .para, .p4, .p7 {
-      font-size: 12px;
+  .text5,
+  .para,
+  .p4,
+  .p7 {
+    font-size: 12px;
   }
 
   .connect-info {
-      margin-top: 20px;
+    margin-top: 20px;
   }
 
   .form-info {
-      width: 100%;
+    width: 100%;
   }
 
-  input[type="text"], textarea {
-      font-size: 14px;
+  input[type="text"],
+  textarea {
+    font-size: 14px;
   }
 }
