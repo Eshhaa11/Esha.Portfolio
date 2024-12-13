@@ -48,9 +48,10 @@ Engaging introductory text with subtle animations and interactivity.
 👩‍💻 About Me
 ---
 
-A journey through my background, skills, and achievements.
+👩‍🎨 About Me
+A section that tells my story—my passion, interests, and journey into development.
+A detailed breakdown of my technical expertise and tools.
 
-Skill icons to make the section more engaging.
 
 ---
 
