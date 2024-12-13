@@ -128,9 +128,11 @@ Instagram: https://www.instagram.com/eshha.11/
 🙏 Thanksgiving
 --
 
-Special thanks to **[MR. EDWARD ODHIAMB]** for your guidance and support  which helped me reach a stage where i could comfortably make such a project. 
+Special thanks to **MR. EDWARD ODHIAMBO** for your guidance and support ,  which helped me reach a stage where i could comfortably make such a project. 
 
-Your encouragement has been invaluable!
+Your encouragement has been invaluable! 
+
+(https://github.com/odhiambo-ed)
 
 --
 
