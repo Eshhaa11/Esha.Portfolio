@@ -1,5 +1,4 @@
 Welcome to Esha's Portfolio 🌸
-
 ---
 Step into a world where design meets functionality! This portfolio is my personal playground, showcasing my skills, projects, and passion for front-end development. Dive in to explore my work and connect with me.
 ---
@@ -7,7 +6,8 @@ Step into a world where design meets functionality! This portfolio is my persona
 🌟 Quick Glance
 ---
 Live Website
-Check out the live version here: 
+
+Check out the live version here: https://eshhaa11.github.io/Esha.Portfolio/
 ---
 
 About This Portfolio
@@ -40,6 +40,7 @@ I’ve built this space to share my projects, my inspirations, and a glimpse int
 A visually captivating hero section that sets the tone for my style and personality.
 
 Engaging introductory text with subtle animations and interactivity.
+
 ---
 
 👩‍💻 About Me
@@ -48,6 +49,7 @@ Engaging introductory text with subtle animations and interactivity.
 A journey through my background, skills, and achievements.
 
 Skill icons to make the section more engaging.
+
 ---
 
 🎨 Portfolio Showcase
@@ -55,6 +57,7 @@ Skill icons to make the section more engaging.
 Featured projects with hover effects that reveal live demos and code repositories.
 
 A blend of grid and carousel layouts for a dynamic presentation.
+
 ---
 
 💬 Contact Me
@@ -76,6 +79,7 @@ CSS3: To craft beautiful, responsive designs.
 Figma: To visualize and prototype designs before development.
 
 Font Awesome: For aesthetic and functional icons.
+
 ---
 
 Sneak Peek
