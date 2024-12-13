@@ -62,6 +62,7 @@ body {
 
 .navbar ul li a:focus {
   outline-offset: 4px;
+  outline-color: #D3E97A;
 }
 
 
