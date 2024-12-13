@@ -6,6 +6,9 @@ Step into a world where design meets functionality! This portfolio is my persona
 
 🌟 Quick Glance
 ---
+Live Website
+Check out the live version here: 
+---
 
 About This Portfolio
 
