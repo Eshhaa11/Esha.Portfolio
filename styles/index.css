@@ -806,93 +806,96 @@ textarea {
 
 }
 
-
-
 @media (max-width: 1024px) {
-  .navbar ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+  .navbar {
+      padding: 20px 40px;
+      flex-wrap: wrap; 
+  }
+
+  .navbar .logo {
+      font-size: 28px;
+  }
+
+  .navbar ul li {
+      margin-left: 20px; 
   }
 
   .home {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
+      flex-direction: column; 
+      padding: 100px 30px;
   }
 
-  .home-info, .home-image {
-      margin: 0 auto;
-  }
-
-  .container1, .container2, .container3 {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 20px;
-  }
-
-  .about-info, .form-info {
-      text-align: center;
-      margin: 0 auto;
-  }
-
-  .icons {
-      justify-content: center;
-      gap: 15px;
-  }
-}
-
-
-@media (max-width: 767px) {
-  .navbar ul {
-      flex-direction: column;
-      align-items: center;
-      padding: 0;
-      gap: 10px;
-  }
-
-  .logo {
-      text-align: center;
-      font-size: 1.5em;
-  }
-
-  .home-info {
-      margin: 20px 0;
-      text-align: center;
+  .home-info .hero-text {
+      font-size: 70px; 
+      line-height: 1.2;
   }
 
   .home-image img {
-      width: 100%;
-      height: auto;
-      max-width: 250px;
+      width: 100%; 
+      max-width: 400px; 
+  }
+
+  .projects {
+      flex-direction: column; 
+      padding: 60px 30px;
   }
 
   .container1, .container2, .container3 {
-      grid-template-columns: 1fr;
+      flex-direction: column; 
+      margin-left: 0;
       gap: 20px;
   }
 
-  .cardtext h2, .cardtext p1, .cardtext h3 {
-      font-size: 0.9em;
-      text-align: center;
+  .project-card {
+      width: 100%; 
+      height: auto;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .navbar {
+      height: auto;
+      padding: 15px;
+  }
+
+  .navbar ul {
+      flex-direction: column; 
+      align-items: flex-start;
+  }
+
+  .navbar ul li {
+      margin-left: 0;
+      margin-bottom: 10px;
+  }
+
+  .home {
+      padding: 50px 20px;
+  }
+
+  .home-info .hero-text {
+      font-size: 50px;
+  }
+
+  .projects-info .text1 {
+      font-size: 30px;
+  }
+
+  .about-info .text3 {
+      font-size: 50px;
   }
 
   .form-info {
-      width: 90%;
-      margin: 0 auto;
+      width: 100%; 
+      position: static; 
+      padding: 10px;
   }
 
-  .icons img {
-      width: 30px;
-      height: 30px;
-  }
-
-  footer {
-      text-align: center;
-      font-size: 0.9em;
+  input[type="text"], textarea, select {
+      width: 100%; 
   }
 }
+
 
 
 
