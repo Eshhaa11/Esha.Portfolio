@@ -64,6 +64,26 @@ body {
   outline-color: #D3E97A;
 }
 
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  flex-direction: column;
+  width: 30px;
+}
+
+.menu-toggle i {
+  margin: 4px 0;
+  transition: 0.4s;
+}
+
+
+
 .home {
   display: flex;
   justify-content: space-between;
@@ -274,6 +294,37 @@ body {
   line-height: 24px;
   text-align: right;
 }
+
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  z-index: 1000;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: white;
+  padding: 30px;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 10px;
+  position: relative;
+}
+
+.close-popup {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
 
 .hr-1,
 .hr-2,
@@ -832,7 +883,11 @@ textarea {
 
 }
 
-@media (max-width: 1024px) {
+  @media screen and (max-width: 768px) {
+  .menu-toggle {
+        display: flex;
+    }
+
   .navbar {
     padding: 20px 40px;
     flex-wrap: wrap;
@@ -880,8 +935,10 @@ textarea {
   }
 }
 
-
-@media (max-width: 768px) {
+@media (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  } 
   .navbar {
     height: auto;
     padding: 15px;
@@ -925,3 +982,4 @@ textarea {
     width: 100%;
   }
 }
+
