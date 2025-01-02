@@ -233,15 +233,19 @@
         <form>
             <label for="name">Name</label>
             <input type="text" id="name" name="Name" placeholder="Esha Patel" />
+            <div id="nameError" class="form-error">Name is required</div>
             <br>
             <label for="email">Email</label>
             <input type="text" id="email" name="Email" />
+            <div id="emailError" class="form-error">Email is required</div>
             <br>
             <label for="subject">Subject</label>
             <input type="text" id="subject" name="Subject" />
+            <div id="subjectError" class="form-error">Subject is required</div>
             <br>
             <label for="message">Message</label>
             <textarea id="message" name="Message" maxlength="200" rows="4"></textarea>
+            <div id="messageError" class="form-error">Message is required </div>
         </form>
 
         <button type="submit" class="btn">SUBMIT</button>

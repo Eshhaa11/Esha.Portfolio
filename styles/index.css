@@ -843,6 +843,12 @@ textarea {
   resize: none;
 }
 
+.form-error {
+  color: red;
+  font-size: 0.8rem;
+  display: none;
+}
+
 .footer {
   font-family: 'manrope', sans-serif;
   color: #c7c7c7;
